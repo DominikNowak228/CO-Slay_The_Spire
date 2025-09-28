@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1ac2ed8cf0d552479c58b579b7185b1, type: 3}
+  m_Name: Fireball
+  m_EditorClassIdentifier: 
+  <Description>k__BackingField: Deale 4 damage to an enemy
+  <Mana>k__BackingField: 1
+  <Image>k__BackingField: {fileID: 21300000, guid: a18d3508ebd82a846b3745a240a335c5, type: 3}
+  <ManualTargetEffect>k__BackingField:
+    rid: 6901472363758223457
+  <OtherEffects>k__BackingField: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 6901472363758223457
+      type: {class: DealDamageEffect, ns: , asm: Assembly-CSharp}
+      data:
+        damageAmount: 4

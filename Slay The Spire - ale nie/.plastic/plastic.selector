@@ -1,0 +1,4 @@
+repository "Slay The Spire - ale nie/Slay The Spire - ale nie@7971479787459@cloud"
+  path "/"
+    br "/main"
+    co "/main"
